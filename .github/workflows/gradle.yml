@@ -37,7 +37,10 @@ jobs:
         uses: cicirello/jacoco-badge-generator@v2.9.0
         with:
           jacoco-csv-file: build/reports/jacoco/test/jacocoTestReport.csv
-          fail-if-branches-less-than: 100
+          generate-branches-badge: true
+          generate-diff-badge: true
+          fail-if-coverage-decreased: true
+
 
   build_and_publish_docker_image:
     name: Publish to Docker Hub
