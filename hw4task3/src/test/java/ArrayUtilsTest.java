@@ -3,6 +3,31 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class ArrayUtilsTest {
 
+    // Added countof tests
+    @Test
+    public void testCountOfEmptyArray() {
+        int[] arr = {};
+        assertEquals(0, ArrayUtils.countOf(arr, 5));
+    }
+
+    @Test
+    public void testCountOfAllMatch() {
+        int[] arr = {7, 7, 7};
+        assertEquals(3, ArrayUtils.countOf(arr, 7));
+    }
+
+    @Test
+    public void testCountOfSomeMatch() {
+        int[] arr = {1, 2, 3, 2, 4, 2};
+        assertEquals(3, ArrayUtils.countOf(arr, 2));
+    }
+
+    @Test
+    public void testCountOfNoMatch() {
+        int[] arr = {1, 2, 3, 4};
+        assertEquals(0, ArrayUtils.countOf(arr, 9));
+    }
+
     @Test
     public void testFindLastNull() {
         // Do not execute fault

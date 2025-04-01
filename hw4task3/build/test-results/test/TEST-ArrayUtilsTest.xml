@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ArrayUtilsTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2025-04-01T20:59:53" hostname="Franks-MBP.home.local" time="0.08">
+  <properties/>
+  <testcase name="testCountOfEmptyArray()" classname="ArrayUtilsTest" time="0.053"/>
+  <testcase name="testCountOfNoMatch()" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testCountOfSomeMatch()" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testFindLastNull()" classname="ArrayUtilsTest" time="0.004"/>
+  <testcase name="testFindLastEmpty()" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testOddOrPositiveBothPositivesAndNegatives()" classname="ArrayUtilsTest" time="0.003"/>
+  <testcase name="testCountOfAllMatch()" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testFindLastNonExistent()" classname="ArrayUtilsTest" time="0.0"/>
+  <testcase name="testOddOrPosAllPositives()" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testOddOrPosNull()" classname="ArrayUtilsTest" time="0.001"/>
+  <testcase name="testFindLastExistsFirstElement()" classname="ArrayUtilsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
